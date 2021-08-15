@@ -1,11 +1,12 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
+import ShoppingCart from '../shoppingCart/ShoppingCart'
 
 const Navbar = () => {
  return (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light bg-info">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/"><i className="fab fa-shopware"></i></Link>
+    <Link className="navbar-brand" to="/"><i className="fab fa-shopware">Shopware</i></Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -37,8 +38,8 @@ const Navbar = () => {
         >
           <i className="fas fa-shopping-cart"></i>
         </span>
-        <ul className="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
-          Shopping Cart
+        <ul className="dropdown-menu dropdown-menu-lg-end shopping-cart" aria-labelledby="navbarDropdown">
+          <ShoppingCart />
            </ul>
       </li>
      
