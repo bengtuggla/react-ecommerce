@@ -10,9 +10,11 @@ const actiontypes = ()=>{
   cart: {
    add: 'ADD_TO_CART',
    sub: 'DELETE_FROM_CART',
+   delete: 'DELETE_PRODUCT',
    clear: 'CLEAR_CART'
   }
  }
 }
 
 export default actiontypes;
+
