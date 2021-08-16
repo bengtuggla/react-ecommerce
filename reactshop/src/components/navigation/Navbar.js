@@ -10,7 +10,7 @@ const Navbar = () => {
  return (
   <nav className="navbar navbar-expand-lg navbar-light bg-info">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/"><i className="fab fa-shopware">Shopware</i></Link>
+    <Link className="navbar-brand" to="/"><i className="fas fa-water">  Bengts REACT Dykshop</i></Link>
     <button
       className="navbar-toggler"
       type="button"
